@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> My First Web Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googlepis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@,400;0,500;0,700;0,900;1,400&display=swap" rel="stlyesheet">
+    <link rel="stylesheet" href="help.css">
+        
+  </head>
+
+  <body>
+    <div id="navbar">
+      <img id="logo" alt="mayor's logo" src="" height="30">
+    </div>
+    <img id="banner" src="anner.jpg" alt="Banner"height="240">
+    <div style="font-size:5px;"></div>
+
+    <h1> 
+      About Mayor.Co
+    </h1>
+
+<div id="about">
+  <div id="description">
+
+    <p style="margin-top: 0;">
+      At Mayor.co we are on a mission to build the world's most higly reputrd technical university, and we are buliding it completely 
+        online. We offer servalbeginner friendly courses
+         that are taken by<b> 300,000+</b>
+          registered users
+    </p>
+    <p>
+      We also offer 2 industry-focused bootcamps:
+      <ol>
+        <li>
+          <a href="https://jovian.com/">
+          Full stack Developer
+          </a>
+        </li>
+        <li>
+          <a href="https://jovian.com/">
+           Data scicence bootcamp
+          </a>
+        </li>
+      </ol>
+    </p>
+</div>
+    <div id="team">
+    <img id="team-image" alt="Team"  src="teaM.jpg">
+    </div>
+</div>
+  
+  
+
+    <h2> Job Opportunies</h2>
+    <div id="jobs">   
+      <table  id="jobs-table">
+        <tr class="jobs-header-row">
+          <th rowspan="2">Job Title</th>
+          <th colspan="2">Location</th>
+          <th rowspan="2">Salary</th>
+          <th rowspan="2">Posted on?</th>
+        </tr>
+        <tr class="jobs-header-row">
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+        <tr class="jobs-data-row">
+         <td>Frontend Developer</td>
+          <td>Abuja</td>
+            <td>Nigeria</td>
+          <td>$12,000,000</td>
+          <td>Mar 3, 2024</td>
+        </tr>
+        <tr class="jobs-data-row">
+          <td>Full Stack Developer</td>
+          <td>Nashville</td>
+            <td>USA</td>
+          <td>$52,000,000</td>
+          <td>Feb 1, 2024</td>
+        </tr>
+        <tr class="jobs-data-row">
+          <td>Data sicentst</td>
+          <td>Lagos</td>
+            <td>Nigeria</td>
+          <td>$592,000,000</td>
+          <td>May 18, 2024</td>
+        </tr>
+        <tr class="jobs-data-row">
+          <td>ML Engineer</td>
+          <td colspan="2">Rmote</td>
+          <td>$32,000,000</td>
+          <td>Jan 28, 2024</td>
+        </tr>
+      </table>
+    <div>
+
+<div id="application">
+  <h2>Submit Your Application</h2>
+
+<form id="application-form" action="https://formbold.com/s/3Ggb1"
+method="POST"
+enctype="multipart/form-data"
+>
+  <div class="form-group">
+    <label>Full Name</label><br>
+    <input type="text" id="name" name="Full Name" required placeholder="Mayor.Jubril">
+  </div>
+
+  <div class="form-group">
+    <label for="email">E-mail</label><br>
+    <input type="email" id="email" name="email" required placeholder="mayor@example.com">
+  </div>
+
+  <div class="form-group">
+      <label for="phone">Phone</label><br>
+      <input type="tel" id="phone" required placeholder="+234 000 000 000">
+  </div>
+
+  <div class="form-group">
+    <label for="dob">Date Of BIrth</label><br>
+    <input type="date" id="dob" name="dob" required>
+  </div>
+
+  <div class="form-group">
+    <label for="position">Position Applied for</label><br>
+    <select id="position" name="Position Applied" required >
+      <option value="">Select position</option>
+      <option value="frontend developer">Frontend Developer</option>
+      <option value="full stack developer">Full stack Developer</option>
+      <option value="data scientist">Data Scientist</option>
+      <option value="ml engineer">ML Engineer</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="resume">Upload Resume</label><br>
+    <input type="file" id="resume" name="resume" accept="pdf,.doc,.docx" required>
+  </div>
+
+  <div class="form-group">
+    <label for="coverletter">Cover Letter</label><br>
+    <textarea id="coverletter name=coverletter" rows="5" required placeholder="Explain What makes you suitable for the Job.."></textarea>
+  </div>
+
+<div class="form-group">
+  <label for="terms">
+    <input type="checkbox" id="terms" required>
+    I agree to the terms and conditions
+  </label>
+</div>
+
+  <div class="form-group">
+    <input type="submit"  value="Submit Application">
+  </div>
+
+</form>
+</div>
+  
+    
+    <div id="footer">
+      <ul id="footer-links">
+        <li>
+          <a href="https://jovian.com/learn" traget="blank">
+          Courses
+          </a>
+        </li>
+        <li>
+          <a href="https://jovian.com/learn" traget="blank">
+          Programs
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=dX8396ZmSPk" traget="blank">
+          YouTube
+          </a>
+        </li>
+      </ul>
+      <span class="copyright">© 2024 Mayor.co</span>
+    </div>
+  </body>
+</html>
